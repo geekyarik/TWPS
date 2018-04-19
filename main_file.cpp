@@ -53,6 +53,8 @@ int main(int argc, char* argv[])
 		PrintYearList(years_list, "«групован≥ дан≥:");
 	}
 
+	//additional comment
+
 	FreUpMemory(years_list);
 
 	fflush(stdin);	getchar();
