@@ -57,7 +57,8 @@ int main(int argc, char* argv[])
 
 	FreUpMemory(years_list);
 
-	fflush(stdin);	getchar();
+	fflush(stdin);
 
-	return 0;
+	getchar();
+
 }
