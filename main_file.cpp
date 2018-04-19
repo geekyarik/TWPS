@@ -53,9 +53,20 @@ int main(int argc, char* argv[])
 		PrintYearList(years_list, "«групован≥ дан≥:");
 	}
 
-	//additional comment
+	else
+	{
+		years_list = GetYearList();
 
-	FreUpMemory(years_list);
+		GetControlYear(control_year);
+	
+		PrintYearList(years_list, "¬веден≥ дан≥:");
+
+		GroupDatesList(years_list, control_year);
+
+		PrintYearList(years_list, "«групован≥ дан≥:");
+	}
+	
+	//additional comment
 
 	fflush(stdin);
 
