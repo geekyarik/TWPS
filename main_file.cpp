@@ -2,6 +2,7 @@
 #include <iostream>
 #include "prot.h"
 //comment
+//one more comm
 int main(int argc, char* argv[])
 {
 	system("chcp 1251");
