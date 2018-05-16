@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "prot.h"
-
+//comment
 int main(int argc, char* argv[])
 {
 	system("chcp 1251");
